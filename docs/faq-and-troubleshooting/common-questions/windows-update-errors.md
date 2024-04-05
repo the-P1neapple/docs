@@ -17,16 +17,20 @@ This issue is on Microsoft's end with the update [KB5034441 for Windows 10](http
     
     You should have at least 1GB of free storage on your Windows drive. If you have little free storage after reinstalling Windows, you likely haven't removed the backup of your previous Windows installation. See [Your old Windows installation](../../getting-started/installation.md#your-old-windows-installation) for more information.
 
-1. **Enable Windows Recovery**    
-    1. Open **Command Prompt as Administrator**
-    1. Type in `reagentc /enable` and press ++enter++
-    1. Restart your computer
+1. **Adjust the Windows Recovery Partition**    
+
+    If you are still having issues. you can follow our guide based on [Microsoft's guidance](https://support.microsoft.com/en-us/topic/kb5028997-instructions-to-manually-resize-your-partition-to-install-the-winre-update-400faa27-9343-461c-ada9-24c8229763bf)
+
+   1. Open **Command Prompt as Administrator**
+   2. Type in diskpart and press ++enter++
+
+   Still in progress
 
 ??? question "Still having problems?"
 
     If the fixes above did not work, you can either:
 
-    1. Follow [Microsoft's guidance](https://support.microsoft.com/en-us/topic/kb5028997-instructions-to-manually-resize-your-partition-to-install-the-winre-update-400faa27-9343-461c-ada9-24c8229763bf)
+    1. F
     1. Pause Windows Updates to bypass (not recommended)
     1. Reinstall Windows using a USB flash drive and delete all partitions on your Windows drive. Be careful, as this permanently deletes the data on your disk!
 
